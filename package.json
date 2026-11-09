@@ -1,0 +1,16 @@
+{
+  "name": "mobile-layout-audit",
+  "version": "1.0.0",
+  "description": "CLI that crawls a sitemap with a real mobile browser and reports horizontal scroll, off-screen elements, tiny text and small tap targets, with screenshots.",
+  "bin": { "mobile-layout-audit": "bin/cli.js" },
+  "main": "src/audit.js",
+  "scripts": {
+    "test": "node --test",
+    "audit": "node bin/cli.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["mobile", "responsive", "audit", "playwright", "qa", "seo", "accessibility", "cli"],
+  "author": "Daria Ulida <hello@otido.dev> (https://otido.dev)",
+  "license": "MIT",
+  "dependencies": { "playwright": "^1.48.0" }
+}
